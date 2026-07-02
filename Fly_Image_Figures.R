@@ -18,7 +18,7 @@ library(tidyr)
 library(ggplot2)
 library(gridExtra)
 
-proj_dir  <- "/Users/anna.vinton/Library/CloudStorage/Dropbox/Fly_eco_evo_project/Fly_morphology"
+proj_dir  <- "."
 data_path <- file.path(proj_dir, "Fly_Image_Data.csv")
 out_dir   <- file.path(proj_dir, "output")   # analysis tables are read from here
 fig_dir   <- proj_dir                        # figures saved directly into Fly_morphology
