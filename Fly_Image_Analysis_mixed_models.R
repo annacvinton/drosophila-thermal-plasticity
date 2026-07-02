@@ -35,7 +35,7 @@ library(emmeans)
 set.seed(20260101)
 options(contrasts = c("contr.sum", "contr.poly"))
 
-proj_dir  <- "/Users/anna.vinton/Library/CloudStorage/Dropbox/Fly_eco_evo_project/Fly_morphology"
+proj_dir  <- "."
 data_path <- file.path(proj_dir, "Fly_Image_Data.csv")
 out_dir   <- file.path(proj_dir, "output")
 if (!dir.exists(out_dir)) dir.create(out_dir)
