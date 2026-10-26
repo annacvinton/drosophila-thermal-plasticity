@@ -6,7 +6,7 @@ Data and code for Vinton AC, Vasquez T, Chen J, Ibbott B, Pillas JT, Koch D, Gas
 
 - `Fly_Image_Data.csv` — per-fly morphological measurements (wing length, femur length, body area) for nine experimentally evolved *Drosophila melanogaster* populations, by evolutionary regime, assay (PA = plasticity assay; CG = common garden), generation, test temperature, sex, and replicate. Measurements are in ImageJ units (1 unit = 0.05 mm; 1 unit² = 0.0025 mm²). Raw images are not included.
 - `analysis_population_level.py` — reproduces every statistic, table (Tables 1–5, S1–S7) and figure (Figures 2–6, S1) in the manuscript from the raw data file.
-- `archive/` — R scripts from the original submission (fly-level mixed models, no longer reported). Kept for the record only.
+
 
 ## Key columns in `Fly_Image_Data.csv`
 
